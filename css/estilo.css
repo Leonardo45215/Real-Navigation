@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+}
+body {
+    background: darkgoldenrod;
+    color: white;
+    margin: 0px;
+}
+
+h1 strong{
+    color: darkgreen;
+    font-size: 30px;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+
+.header{
+    background: goldenrod;
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+}
+
+.header li {
+    height: inherit;
+}
+
+.header a{
+    color: honeydew;
+    height: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.menu {
+    height: inherit;
+}
+
+.Principal {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+    color: cornsilk;
+    text-align: center;
+    padding: 100px;
+}
+
+.Principal img{
+    width: 200px;
+}
+
+.Principal-Button{
+    background-color: darkgreen;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    height: 40px;
+    width: 250px;
+
+}
+
+.Tendencias{
+    text-align: center;
+    background: url(../img/img8.jpg);
+    height: 750px;
+    background-size: 100%;
+    padding-top: 30px;
+    color: darkgreen;
+}
+
+.uno{
+    padding: 20px;
+    width: 15%;
+}
+
+.IA{
+    background-image: url(../img/img16.jpg);
+    padding: 100px;
+    width: 100%;
+    text-align: center;
+    color: ghostwhite;
+}
+
+.dos{
+    width: 40%;
+}
+
+.tres{
+    text-align: center;
+    padding: 100px;
+    width: 40%;
+}
+
+.VR{
+    background-image: url(search?q=realidad+virtual+en+la+educacion&tbm=isch&ved=2ahUKEwilnJjg0MXqAhWFUawKHeg3AFUQ2-cCegQIABAA&oq=realidad+virtua&gs_lcp=CgNpbWcQARgDMgUIABCxAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoECAAQQzoICAAQsQMQgwE6BggAEAoQGFDMzFxY-epcYKKBXWgBcAB4AIABd4gBmw2SAQQ0LjEymAEAoAEBqgELZ3dzLXdpei1pbWc&sclient=img&ei=V-oJX-WUIIWjsQXo74CoBQ&bih=754&biw=1519&hl=es-419#imgrc=WEq_1WdNK-KqMM);
+    text-align: center;
+    padding: 100px;
+    width: 40%;
+}
+
+
+.Big Data{
+    background: blue;
+    text-align: center;
+    padding: 100px;
+    width: 40px;
+}
+
+/*
+.padre{
+    background: white;
+    display: flex;
+    flex-wrap: nowwrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+  
+
+}
+
+.hijo{
+    background-color: darkgreen;
+    width: 300px;
+    height: 300px;
+    border: 2px solid yellow;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+*/
+
+.aplicar{
+    height: 800px;
+    background: chocolate;
+    display: flex;
+}
+
+.aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1{
+    display: flex;
+    background: rebeccapurple;
+    padding: 20px;
+}
+
+.container2{
+    background: green;
+}
