@@ -5,10 +5,11 @@ body {
     background: darkgoldenrod;
     color: white;
     margin: 0px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1 strong{
-    color: darkgreen;
+    color: whitesmoke;
     font-size: 30px;
 }
 
@@ -41,7 +42,7 @@ ul{
 }
 
 .logo img{
-    width: 100px;
+    height: 110px;
 }
 
 .menu {
@@ -49,8 +50,6 @@ ul{
 }
 
 .Principal {
-    background-image: url(../img/fondo.jpg);
-    background-size: cover;
     font-family: 'Roboto Mono', monospace;
     color: cornsilk;
     text-align: center;
@@ -58,19 +57,24 @@ ul{
 }
 
 .Principal img{
-    width: 200px;
+    width: 350px;
+    margin-bottom: 20px;
 }
 
 .Principal-Button{
-    background-color: darkgreen;
+    background-color: rgba(13, 76, 192, 0.829);
     border-radius: 24px;
     border: none;
     font-size: 20px;
     cursor: pointer;
-    margin-top: 30px;
     height: 40px;
     width: 250px;
+    padding: 10px;
 
+}
+
+.Principal h1{
+    margin-bottom: 20px;
 }
 
 .Tendencias{
@@ -146,8 +150,8 @@ ul{
 */
 
 .aplicar{
-    height: 800px;
-    background: chocolate;
+    height: 600px;
+    background: rgba(13, 76, 192, 0.829);
     display: flex;
 }
 
@@ -158,6 +162,11 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 30px;
+}
+
+.aplicar-detalles h2{
+    margin-bottom: 20px;
 }
 
 .container1{
